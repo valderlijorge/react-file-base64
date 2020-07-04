@@ -145,7 +145,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement('input', {
-	        type: 'file',
+			type: 'file',
+			accept: this.props.accept,
 	        onChange: this.handleChange.bind(this),
 	        multiple: this.props.multiple });
 	    }
@@ -158,7 +159,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	FileBase64.defaultProps = {
-	  multiple: false
+	  multiple: false,
+	  accept: 'image/png, image/jpeg'
 	};
 
 /***/ }),
