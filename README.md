@@ -54,6 +54,9 @@ ReactDOM.render(<App />, document.getElementById("app"))
 ##### multiple (Boolean)
 Does your component support multiple files?
 
+##### accept (default - image/png, image/jpeg)
+Accept type files
+
 ##### onDone (Function)
 Callback function when all files have been processed
 
